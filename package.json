@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cypress:run": "./node_modules/.bin/cypress run",
-    "cypress:open": "./node_modules/.bin/cypress open"
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "cypress-cucumber-preprocessor": "^4.1.2"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/support/step_definitions"
   }
 }

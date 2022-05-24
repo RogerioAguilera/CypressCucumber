@@ -1,5 +1,4 @@
 {
-    "baseUrl":"https://pesquisa.biblia.com.br/",
-    "testFiles": "**/*.feature"
-
+  "baseUrl": "https://pesquisa.biblia.com.br/",
+  "testFiles": "**/*.feature"
 }
